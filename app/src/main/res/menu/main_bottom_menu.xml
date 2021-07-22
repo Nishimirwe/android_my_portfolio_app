@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/profile_bottom_menu_id"
+        android:title="@string/profile_menu_text"
+        android:icon="@drawable/ic_home_24"/>
+
+    <item android:id="@+id/resume_bottom_menu_id"
+        android:title="@string/resume_menu_text"
+        android:icon="@drawable/ic_resume_24"/>
+
+    <item android:id="@+id/contact_bottom_menu_id"
+        android:title="@string/contact_text"
+        android:icon="@drawable/ic_contact_24"/>
+
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/resume_card_id"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/resume_card_background"
+    android:layout_marginTop="10sp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/card_header_one_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:text="Education"
+            android:textColor="@color/profile_header"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/card_header_two_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:textColor="@color/profile_sub_header"
+            android:text="Master of Science in Information Technology" />
+
+        <TextView
+            android:id="@+id/card_year_one_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:text="2020-2022" />
+
+        <TextView
+            android:id="@+id/card_value_one_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:text="Carnegie Institute of Technology, Carnegie Mellon University." />
+
+        <TextView
+            android:id="@+id/card_header_three_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="20sp"
+            android:textColor="@color/profile_sub_header"
+            android:text="Master of Science in Information Technology" />
+
+        <TextView
+            android:id="@+id/card_year_two_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:text="2020-2022" />
+
+        <TextView
+            android:id="@+id/card_value_two_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:text="Carnegie Institute of Technology, Carnegie Mellon University." />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

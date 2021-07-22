@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Jean Paul Portifolio App</string>
+    <string name="my_name">Jean Paul Nishimirwe</string>
+    <string name="my_specialization">A Software Engineer</string>
+    <string name="get_to_portfolio_button_text">--get to portfolio right now --</string>
+    <string name="profile_menu_text">Profile</string>
+    <string name="contact_text">Contact</string>
+    <string name="resume_menu_text">Resume</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="birthday_text">30 January 1997</string>
+    <string name="cmu_text">Carnegie Mellon University</string>
+    <string name="degree_text">Masters</string>
+    <string name="internship_text">Internship</string>
+    <string name="specialization_a_string">Software Engineer</string>
+</resources>
