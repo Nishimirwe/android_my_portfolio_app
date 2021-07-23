@@ -2,7 +2,10 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="100sp">
+    android:layout_margin="8sp"
+    app:cardCornerRadius="10sp"
+    app:cardBackgroundColor="@color/contact_card_background"
+    android:layout_height="80sp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,32 +16,40 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/contact_kind_logo_id"
-                android:layout_width="0dp"
+            <androidx.cardview.widget.CardView
+                android:id="@+id/contact_card_logo_id"
+                android:layout_width="70sp"
                 android:layout_height="match_parent"
                 android:layout_margin="5sp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintWidth_percent="0.22" />
+                app:cardCornerRadius="10sp"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:id="@+id/contact_kind_logo_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </androidx.cardview.widget.CardView>
+
 
             <TextView
                 android:id="@+id/contact_value_text_id"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="5sp"
+                android:textColor="@color/purple_700"
                 app:layout_constraintHeight_percent="0.5"
-                app:layout_constraintStart_toEndOf="@+id/contact_kind_logo_id"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintWidth_percent="0.78" />
+                android:textSize="20sp"
+                android:layout_marginStart="25sp"
+                app:layout_constraintStart_toEndOf="@+id/contact_card_logo_id"
+                app:layout_constraintTop_toTopOf="parent"/>
 
             <TextView
                 android:id="@+id/primary_or_not_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hi there"
+                android:textColor="@color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@id/contact_kind_logo_id"
+                app:layout_constraintStart_toEndOf="@id/contact_card_logo_id"
                 app:layout_constraintTop_toBottomOf="@id/contact_value_text_id" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
