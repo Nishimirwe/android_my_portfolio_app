@@ -32,13 +32,14 @@
                 app:layout_constraintWidth_percent="0.78" />
 
             <TextView
+                android:id="@+id/primary_or_not_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/contact_value_text_id"
                 android:text="Hi there"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/contact_kind_logo_id"
-                app:layout_constraintBottom_toBottomOf="parent"/>
+                app:layout_constraintTop_toBottomOf="@id/contact_value_text_id" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
