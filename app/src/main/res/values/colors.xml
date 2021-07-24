@@ -14,4 +14,6 @@
     <color name="profile_sub_header">#070912</color>
     <color name="resume_card_background">#ACAEBA</color>
     <color name="contact_card_background">#A9BECD</color>
+    <color name="skills_card_view_color">#72c472</color>
+    <color name="down_text_color">#697d69</color>
 </resources>

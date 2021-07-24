@@ -9,9 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.JeanPaulPortifolioApp">
-        <activity android:name=".GalleryActivity"
+        <activity android:name=".SkillsActivity"
             android:parentActivityName=".SecondMainActivity"
-            android:label="Jean Paul Gallery"></activity>
+            android:label="Jean Paul Skills"></activity>
+        <activity
+            android:name=".GalleryActivity"
+            android:label="Jean Paul Gallery"
+            android:parentActivityName=".SecondMainActivity" />
         <activity
             android:name=".SecondMainActivity"
             android:parentActivityName=".MainActivity" />

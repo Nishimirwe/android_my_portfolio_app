@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import com.hellofriendz.jeanpaulportifolioapp.databinding.ActivityMainBinding
 import com.hellofriendz.jeanpaulportifolioapp.databinding.FragmentProfileBinding
 
@@ -26,6 +27,12 @@ class ProfileFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.cardToGalleryId.setOnClickListener { onCardToGalleryClicked() }
+        binding.cardToSkillsId.setOnClickListener { onCardToSkillsClicked() }
+    }
+
+    private fun onCardToSkillsClicked() {
+        val intent=Intent(context,SkillsActivity::class.java)
+        startActivity(intent)
     }
 
     private fun onCardToGalleryClicked() {
